@@ -68,3 +68,64 @@ Rejected:
 This feature would allow CopyStack to act more like a real editor, not only generating effects but also choosing the best creative material from a large media library.
 
 2026-06-17
+
+
+## Localhost Progress Showcase
+
+When CopyStack moves to localhost, the app should include a section, tab, or popup for daily progress showcases.
+
+Example:
+
+Day 2
+
+The section should store:
+
+* the script for the video
+* what should be shown on screen while speaking
+* project progress
+* key achievements
+* next steps
+
+This will allow CopyStack to document the build journey directly inside the product.
+
+## Day 2 Showcase Script Notes
+
+"Astăzi am lucrat aproape șase ore..."
+Show the project structure in VS Code.
+
+"Până acum sistemul putea doar să genereze subtitrări."
+Show a clip with subtitles.
+
+"Acum începe să înțeleagă videoclipul."
+Show Video Analyst and Editing Report.
+
+"Motion Director decide..."
+Show the overlay synchronized with CopyStack.
+
+"Biblioteca de asset-uri..."
+Show the assets/motion folder.
+
+"AI Video Operating System"
+Zoom in on the AI Employees architecture or project structure.
+
+## Script Helper
+
+Future feature idea:
+
+CopyStack should include a Script Helper.
+
+The user tells CopyStack what they want to create using the materials they provide.
+
+If the spoken content, footage, photos, or clips are not enough, CopyStack should help improve the idea and suggest what is missing.
+
+The Script Helper should be able to:
+
+* understand the goal of the video
+* analyze the available materials
+* detect missing context
+* suggest better script angles
+* improve weak spoken content
+* help turn raw materials into a stronger video concept
+* guide the user on what extra footage, photos, or voiceover would improve the edit
+
+2026-6-17
