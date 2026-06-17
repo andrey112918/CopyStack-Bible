@@ -129,3 +129,83 @@ The Script Helper should be able to:
 * guide the user on what extra footage, photos, or voiceover would improve the edit
 
 2026-6-17
+
+## Production Assistant Rules
+
+The Production Assistant is responsible for deciding how every scene should be produced.
+
+The selected production method is not a suggestion.
+
+It is the workflow that CopyStack will execute.
+
+### Raw Creator Footage
+
+The creator records the scene exactly as instructed.
+
+The final edit uses the raw recording with only minimal processing.
+
+### Engine Edit
+
+When this option is selected, the creator only provides the required materials.
+
+Examples:
+
+* raw camera footage
+* photos
+* screen recordings
+* logos
+* product images
+
+CopyStack is fully responsible for producing the final scene.
+
+The engine automatically decides and generates:
+
+* subtitles
+* cuts
+* B-roll
+* transitions
+* motion graphics
+* sound effects
+* camera movements
+* overlays
+* animations
+* color adjustments
+* pacing
+
+If the Production Assistant chooses Engine Edit, the final result must be rendered by CopyStack.
+
+Manual editing is no longer required.
+
+### Screen Recording
+
+The creator records the required workflow.
+
+CopyStack edits and enhances the recording automatically.
+
+### Mixed Production
+
+The creator records only the parts that require human presence.
+
+Everything else is produced automatically by CopyStack.
+
+Examples:
+
+* B-roll
+* transitions
+* overlays
+* motion graphics
+* assets
+* captions
+* effects
+
+## Design Principle
+
+The user should never wonder:
+
+"Should I edit this myself?"
+
+The Production Assistant makes that decision.
+
+Once a production method is selected, CopyStack is responsible for executing it.
+
+2026-6-17
