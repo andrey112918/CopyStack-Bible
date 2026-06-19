@@ -58,3 +58,23 @@ Renderer
 
 * Combine subtitles, overlays and exported video into the final render.
 
+Timeline AI Rendering Pipeline
+
+TimelinePlan is now capable of generating RenderPlan instructions.
+
+Current instruction types:
+
+Motion
+Zoom
+
+Upcoming translators:
+
+Subtitle Translator
+Camera Translator
+Effect Translator
+Transition Translator
+B-roll Translator
+
+Each translator converts AI decisions into renderer instructions.
+
+The renderer remains completely independent from AI logic.
