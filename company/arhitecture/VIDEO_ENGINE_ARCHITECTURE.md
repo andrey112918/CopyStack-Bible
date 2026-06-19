@@ -359,3 +359,80 @@ Next milestones:
 - Transition Translator
 - B-roll Translator
 - Full AI-controlled rendering pipeline
+
+## Motion Plugin System
+
+The Motion Plugin System converts high-level AI motion decisions into reusable FFmpeg video filters.
+
+Pipeline:
+
+AI Motion Director
+↓
+Timeline MotionPlan
+↓
+Motion Translator
+↓
+RenderPlan
+↓
+Motion Renderer
+↓
+Motion Plugin Registry
+↓
+Motion Plugin
+↓
+FFmpeg Filter
+
+### Purpose
+
+The system allows new motion behaviors to be added without rewriting the Motion Renderer.
+
+Motion Renderer only coordinates instructions.
+Motion Plugin Registry resolves the correct plugin.
+Each Motion Plugin owns its FFmpeg expression and cinematic behavior.
+
+### Implemented Motion Plugins
+
+#### Zoom Punch
+
+Used for:
+
+- CTA emphasis
+- reveal moments
+- punchlines
+- impact moments
+
+#### Camera Shake
+
+Used for:
+
+- hooks
+- surprise moments
+- beat hits
+- impact moments
+- high-energy edits
+
+Camera Shake supports presets:
+
+- low
+- medium
+- high
+
+Each preset controls:
+
+- amplitude
+- frequency
+
+### Architecture Rule
+
+New motion behaviors must be added as plugins, not hardcoded directly inside MotionRenderer.
+
+Example future plugins:
+
+- Smooth Push
+- Crash Zoom
+- Dolly
+- Handheld
+- Orbit
+- Dynamic Reframe
+
+This keeps the renderer stable and follows the same architectural pattern used by the Effect Plugin System.
