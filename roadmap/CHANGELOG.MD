@@ -1,70 +1,96 @@
-# Changelog
+# Current Sprint
 
-All notable changes to CopyStack are documented in this file.
+## Name
 
----
-
-# Version 0.3.0
-
-## AI Engine
-
-### Added
-
-- Creative Director
-- Strategy Director
-- Scene Planner
-- Music Analyzer
-- Timeline Planner
-- Motion Director
-- Effect Director
-- Transition Director
-- Director Memory
-- Director Score
-
-### Rendering
-
-Added:
-
-- RenderPlanBuilder
-- Timeline AI Integration
-- timeline_ai rendering mode
-- AI → Renderer bridge
-
-Renderer now supports RenderPlan generated from TimelinePlan.
-
-### Architecture
-
-Introduced complete separation between:
-
-- AI Engine
-- Render Engine
-
-RenderPlan is now the official communication contract between both systems.
-
-### Documentation
-
-Updated CopyStack Bible:
-
-- CopyStack Core
-- Video Engine Architecture
-- AI Employees
-- Project Structure
-- Future AI
-- Daily Reports
+Motion Intelligence Foundation
 
 ---
 
-# Next Version
+## Status
 
-Upcoming work:
+Completed ✅
 
-- Subtitle Translator
-- Camera Translator
-- Motion Translator refactor
-- Effect Translator
-- Transition Translator
-- B-roll Translator
+---
 
-Goal:
+# Objectives
 
-Complete AI-controlled rendering pipeline.
+- Build Motion Decision Engine
+- Build Motion Plugin Architecture
+- Build Motion Renderer
+- Introduce Motion Recipes
+- Improve Story Intelligence
+- Extend Timeline metadata
+- Expand automated testing
+
+---
+
+# Completed
+
+## Motion
+
+- Motion Decision Engine
+- Motion Context
+- Motion Recipes
+- Motion Decision
+- Confidence scoring
+- Recipe selection
+
+---
+
+## Plugins
+
+- Motion Plugin Registry
+- Motion Plugin Interface
+- Motion Plugin Execution
+- Filter Graph Builder
+
+---
+
+## Renderer
+
+- Motion Renderer
+- Motion execution
+- Timeline integration
+- FFmpeg integration
+
+---
+
+## Story
+
+- Story Progress Tracker
+- Story-aware Motion
+- Cinematic Memory improvements
+
+---
+
+## Timeline
+
+- Metadata propagation
+- AI explanations
+- Confidence metadata
+- Recipe metadata
+
+---
+
+## Testing
+
+- Motion tests
+- Story tests
+- Timeline tests
+- Renderer tests
+
+---
+
+# Sprint Result
+
+Motion Intelligence infrastructure completed successfully.
+
+---
+
+# Next Sprint
+
+1. Audit Layer
+2. AI Decision Logger
+3. Explain Mode
+4. Asset Library Integration
+5. Localhost preparation
