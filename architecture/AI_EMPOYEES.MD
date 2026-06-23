@@ -333,4 +333,64 @@ Future AI Employees may include:
 - Outreach Director
 - Analytics Director
 
+# Motion Decision Engine
+
+## Purpose
+
+Determines the most appropriate motion strategy for every scene based on story progression, speech analysis and timeline context.
+
+---
+
+## Responsibilities
+
+- Evaluate motion context.
+- Select the most appropriate recipe.
+- Compute confidence score.
+- Generate decision metadata.
+- Explain every decision.
+
+---
+
+## Inputs
+
+- MotionContext
+- StoryState
+- Timeline metadata
+- Speech metadata
+
+---
+
+## Outputs
+
+- MotionDecision
+- MotionRecipe
+- Confidence
+- Reason
+- Warnings
+
+---
+
+# Story Progress Tracker
+
+## Purpose
+
+Tracks narrative progression throughout the video.
+
+---
+
+## Responsibilities
+
+- Measure story progression.
+- Detect pacing changes.
+- Estimate narrative intensity.
+- Provide context for Motion Intelligence.
+
+---
+
+## Outputs
+
+- StoryState
+- Story Progress
+- Narrative Phase
+
 The AI Engine is designed to grow by adding new specialized employees without changing the existing architecture.
