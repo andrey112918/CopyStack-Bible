@@ -1,81 +1,121 @@
-# CopyStack-Bible
-The single source of truth for the entire CopyStack ecosystem.
-
-<div align="center">
-
 # CopyStack Bible
 
-### The single source of truth for the entire CopyStack ecosystem.
+The official documentation repository for the CopyStack ecosystem.
 
-Building the future of AI-powered creative work.
+CopyStack is being built as an AI Employee Operating System capable of automating complex business workflows through specialized AI Employees.
 
----
-
-![Status](https://img.shields.io/badge/Status-Active-success)
-![Stage](https://img.shields.io/badge/Stage-Startup-blue)
-![Version](https://img.shields.io/badge/Version-v0.1-black)
-
-</div>
+The first product in the ecosystem is the **CopyStack Video Engine**, an AI-powered editing system designed to transform raw footage into highly engaging short-form content.
 
 ---
 
-# About
+# Current Project Status
 
-CopyStack Bible is the official knowledge base of the CopyStack ecosystem.
+## Active Product
 
-This repository documents every important decision behind the company, including:
+CopyStack Video Engine
 
-- Vision
-- Mission
-- Company Principles
-- Product Architecture
-- AI Design Decisions
-- Development Roadmaps
-- Research
-- Long-term Strategy
+Status:
+In Active Development
 
-If the code is the body of CopyStack,
-
-**this repository is its brain.**
+Current Milestone:
+Motion Intelligence Foundation ✅
 
 ---
 
-# Purpose
+# Vision
 
-The goal of this repository is to ensure that every decision made during the development of CopyStack is documented and never lost.
+The long-term objective is to build an operating system where multiple AI Employees collaborate to execute complete business workflows.
 
-Nothing important should exist only inside conversations.
+Examples of future AI Employees include:
 
-Everything important becomes knowledge.
+- Video Employee
+- Outreach Employee
+- Research Employee
+- Asset Manager
+- Script Assistant
+- Marketing Employee
+
+Each employee will specialize in a specific domain while sharing a common architecture and communication protocol.
 
 ---
 
 # Repository Structure
 
-```
-company/
-products/
 architecture/
-decisions/
-research/
-```
+
+System architecture, AI employees, processing pipeline and technical documentation.
+
+company/
+
+Daily logs, architectural decisions, products and internal documentation.
+
+roadmap/
+
+Project roadmap, sprint planning and changelog.
+
+standards/
+
+Coding standards, naming conventions and development guidelines.
+
+vision/
+
+Long-term product vision and strategic planning.
 
 ---
 
-# Philosophy
+# Development Philosophy
 
-> Build once.
->
-> Improve forever.
+CopyStack follows several core principles:
 
----
-
-# Current Stage
-
-Sprint 0
-
-Building the foundation of CopyStack.
+- Modular architecture.
+- AI-first design.
+- Explainable decision making.
+- Independent components.
+- Long-term maintainability.
+- Extensibility through plugins.
+- Professional engineering practices.
 
 ---
 
-© CopyStack
+# Current Architecture
+
+The Video Engine currently consists of:
+
+- Speech Analysis
+- Content Analysis
+- Story Engine
+- Story Progress Tracker
+- Director Brain
+- Timeline Planner
+- Motion Decision Engine
+- Motion Recipe System
+- Motion Plugin System
+- Motion Renderer
+- FFmpeg Export Pipeline
+
+---
+
+# Current Sprint
+
+Motion Intelligence Foundation
+
+Status:
+Completed ✅
+
+---
+
+# Next Milestones
+
+- Audit Layer
+- Decision Logger
+- Explain Mode
+- Asset Library
+- Research Center
+- Localhost
+- Outreach Engine
+
+---
+
+# Documentation
+
+The Bible is updated after every completed sprint to ensure that architectural decisions, implementation details and project history remain synchronized with the codebase.
