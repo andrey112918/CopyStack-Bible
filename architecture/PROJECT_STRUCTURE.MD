@@ -334,3 +334,90 @@ Future:
 - Localhost Platform
 - Intelligent Asset Library
 - Explain Mode
+
+# CopyStack Video Engine
+
+## High-Level Architecture
+
+```
+                 Input Video
+                      │
+                      ▼
+              Speech Analysis
+                      │
+                      ▼
+             Content Analysis
+                      │
+                      ▼
+               Story Engine
+                      │
+                      ▼
+         Story Progress Tracker
+                      │
+                      ▼
+             Director Brain
+                      │
+                      ▼
+            Timeline Planner
+                      │
+                      ▼
+        Motion Decision Engine
+                      │
+                      ▼
+            Motion Recipes
+                      │
+                      ▼
+            Motion Plugins
+                      │
+                      ▼
+            Motion Renderer
+                      │
+                      ▼
+              Render Plan
+                      │
+                      ▼
+             FFmpeg Export
+                      │
+                      ▼
+               Final Video
+```
+
+---
+
+## Core Systems
+
+### Analysis Layer
+
+- Speech Analysis
+- Content Analysis
+- Story Engine
+- Story Progress Tracker
+
+---
+
+### Intelligence Layer
+
+- Director Brain
+- Timeline Planner
+- Motion Decision Engine
+- Motion Recipe System
+
+---
+
+### Execution Layer
+
+- Motion Plugins
+- Motion Renderer
+- FFmpeg Renderer
+
+---
+
+## Design Principles
+
+- AI plans.
+- Timeline organizes.
+- Renderer executes.
+- Plugins extend functionality.
+- Recipes define behavior.
+- Story drives motion.
+- Every decision must remain explainable.
