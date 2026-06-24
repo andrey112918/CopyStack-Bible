@@ -1,8 +1,8 @@
-# Decision #0003
+# Decision 0006
 
 ## Title
 
-Motion Intelligence Foundation
+Motion decisions will be generated through the Motion Intelligence Foundation.
 
 ---
 
@@ -14,142 +14,82 @@ Accepted
 
 ## Date
 
-2026-06-23
+23 June 2026
 
 ---
 
-# Context
+## Context
 
-Pe măsură ce Video Engine a evoluat, a devenit evident că logica bazată pe reguli hardcodate (`if/else`) nu poate susține obiectivul pe termen lung al CopyStack.
+Although the Motion Plugin System solved the problem of executing cinematic animations, the AI still required a structured mechanism for deciding **which** motion should be applied and **why**.
 
-Video Engine trebuie să poată lua decizii inteligente, să fie ușor de extins și să poată explica de ce a ales un anumit efect sau o anumită mișcare.
+Simply selecting animations based on hardcoded rules would eventually produce repetitive edits and make future Explain Mode impossible.
 
-În plus, aceeași infrastructură trebuie să fie reutilizată ulterior de Explain Mode și de aplicația Localhost.
-
----
-
-# Decision
-
-Motion Intelligence va fi construit pe trei componente independente:
-
-1. Motion Decision Engine
-2. Motion Recipe System
-3. Motion Plugin System
-
-Rendererul nu conține logică de decizie.
-
-Rendererul execută exclusiv instrucțiunile generate de Motion Decision Engine.
+A dedicated intelligence layer became necessary to separate motion reasoning from motion execution.
 
 ---
 
-# Architecture
+## Decision
 
-Speech Analysis
-↓
-Story Engine
-↓
-Timeline Planner
-↓
-Motion Decision Engine
-↓
-Motion Recipes
-↓
-Motion Plugins
-↓
-Motion Renderer
-↓
-FFmpeg
+CopyStack introduces the Motion Intelligence Foundation as the official decision-making architecture for cinematic motion.
+
+Motion selection will be based on:
+
+* Motion Context
+* Motion Recipes
+* Story progression
+* Timeline metadata
+* Confidence scoring
+* Decision reasoning
+
+The Motion Decision Engine becomes responsible for selecting the appropriate motion strategy before rendering begins.
 
 ---
 
-# Principles
+## Why
 
-## AI decides
+Separating decision-making from execution provides:
 
-Toate deciziile sunt luate înainte de etapa de randare.
+* explainable AI decisions
+* reusable motion recipes
+* easier debugging
+* story-aware editing
+* improved scalability
+* future AI optimization
 
----
-
-## Renderer executes
-
-Rendererul nu decide.
-
-Rendererul execută doar instrucțiunile primite.
-
----
-
-## Recipes define behavior
-
-Comportamentul Motion Intelligence este descris prin rețete reutilizabile și configurabile.
+This architecture transforms motion from a static rendering feature into an intelligent AI system.
 
 ---
 
-## Plugins implement effects
+## Consequences
 
-Fiecare efect este implementat ca un plugin independent.
+Motion decisions must always pass through the Motion Decision Engine.
 
----
+Timeline Planner should preserve metadata describing every motion decision.
 
-## Story influences motion
+Future Explain Mode will visualize Motion Intelligence decisions directly from Timeline metadata.
 
-Motion-ul nu este determinat doar de transcript sau audio.
-
-Acesta trebuie să țină cont și de progresul narativ al videoclipului.
+Motion Recipes become the primary mechanism for expanding cinematic editing capabilities.
 
 ---
 
-## Explainability
+## Alternatives Considered
 
-Fiecare decizie trebuie să poată fi explicată prin:
+### Rule-Based Motion Selection
 
-- recipe_id
-- recipe_name
-- confidence
-- reason
+Rejected because large collections of hardcoded rules become difficult to maintain and explain.
 
-Aceste informații vor fi utilizate de Explain Mode.
+### Renderer-Based Motion Selection
 
----
+Rejected because rendering should remain responsible only for execution.
 
-# Consequences
+### Plugin Self-Selection
 
-## Advantages
-
-- arhitectură modulară
-- extensibilitate ridicată
-- testare independentă
-- integrare ușoară cu Localhost
-- compatibilitate cu Explain Mode
-- posibilitatea introducerii unor modele AI mai avansate fără modificarea rendererului
+Rejected because plugins should execute instructions rather than decide when they should be used.
 
 ---
 
-## Trade-offs
+## Reversible?
 
-- număr mai mare de componente
-- complexitate inițială mai ridicată
-- necesitatea unei documentații mai detaliate
+**NO**
 
-Aceste compromisuri sunt acceptate deoarece oferă o bază solidă pentru dezvoltarea pe termen lung.
-
----
-
-# Future Impact
-
-Această decizie reprezintă fundația tuturor dezvoltărilor viitoare din zona Motion Intelligence.
-
-Noile animații, efecte și reguli de editare vor fi adăugate prin Recipes și Plugins, fără modificarea Motion Renderer-ului.
-
-Această arhitectură permite integrarea viitoare cu:
-
-- Explain Mode
-- Asset Library
-- Research Center
-- Localhost
-- viitorii AI Employees din ecosistemul CopyStack
-
----
-
-# Approved
-
-2026-06-23
+Motion Intelligence becomes the permanent decision layer responsible for every cinematic motion generated by the CopyStack Video Engine.
