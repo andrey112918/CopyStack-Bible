@@ -1,120 +1,307 @@
-# CopyStack Roadmap
+# CopyStack Product Roadmap
+
+## Roadmap Philosophy
+
+Each roadmap version represents a major architectural milestone rather than a software release.
+
+The objective is to progressively transform CopyStack from an AI-powered video editor into a complete AI Employee Operating System.
+
+Every milestone introduces reusable technology that will later be shared across future CopyStack products.
 
 ---
 
 # Version 0.1
 
-Goal:
-Understand the video.
+## Goal
 
-## Content Analyzer
+Understand the content before making editing decisions.
 
-* [x] Metadata Reader
-* [x] Job System
-* [x] Employee Reports
-* [x] Speech Intelligence V1
-* [ ] Speech Intelligence Production Ready
-* [ ] Hook Intelligence
-* [ ] Attention Intelligence
-* [ ] Music Intelligence
-* [ ] Face Intelligence
-* [ ] OCR Intelligence
-* [ ] Emotion Intelligence
+### Intelligence Foundation
+
+* Content Analyzer
+* Metadata Reader
+* Job System
+* Employee Reports
+* Speech Intelligence V1
+* Speech Intelligence (Production Ready)
+* Hook Intelligence
+* Attention Intelligence
+* Music Intelligence
+* Face Intelligence
+* OCR Intelligence
+* Emotion Intelligence
+
+### Story Intelligence
+
+✅ Story Engine
+
+✅ Story Progress Tracker
+
+✅ Story State
+
+✅ Cinematic Memory
 
 ---
 
 # Version 0.2
 
-Goal:
-Create an editing strategy.
+## Goal
 
-Creative Director ✅
+Generate intelligent editing decisions.
 
-Strategy Director ✅
+### AI Employees
 
-Scene Planner ✅
+✅ Creative Director
 
-Music Analyzer ✅
+✅ Strategy Director
 
-Timeline Planner ✅
+✅ Scene Planner
 
-Motion Director ✅
+✅ Music Analyzer
 
-Effect Director ✅
+✅ Timeline Planner
 
-Transition Director ✅
+✅ Motion Director
 
-Director Memory ✅
+✅ Effect Director
 
-Director Score ✅
+✅ Transition Director
 
-AI Communication Pipeline 🔄
+✅ Director Brain
+
+✅ Director Memory
+
+✅ Director Score
+
+### Motion Intelligence
+
+✅ Motion Context
+
+✅ Motion Decision Engine
+
+✅ Motion Recipe System
+
+✅ Motion Recipe Library
+
+✅ Motion Intelligence Foundation
+
+### AI Communication
+
+🔄 AI Communication Pipeline
 
 ---
 
 # Version 0.3
 
-Goal: Generate professional edits.
+## Goal
 
-Motion Graphics Engine 🔄
+Generate professional cinematic edits.
 
-Subtitle Engine 🔄
+### Editing Pipeline
 
-RenderPlanBuilder ✅
+✅ Motion Plugin System
 
-Timeline AI Integration ✅
+🔄 Motion Graphics Engine
 
-Timeline AI Rendering Mode ✅
+🔄 Subtitle Engine
 
-Subtitle Translator
+✅ RenderPlanBuilder
 
-Camera Translator
+✅ Timeline AI Integration
 
-Motion Translator
+✅ Timeline AI Rendering Mode
 
-Effect Translator
+### Translators
 
-Transition Translator
+* Subtitle Translator
+* Camera Translator
+* Motion Translator
+* Effect Translator
+* Transition Translator
+* B-roll Translator
 
-Auto Zoom
+### Editing Automation
 
-Auto B-Roll
+* Auto Zoom
+* Auto B-Roll
+* Auto Cuts
 
-Auto Cuts
+### AI Metadata
+
+✅ Timeline Metadata
+
+✅ AI → Renderer Bridge
 
 ---
 
 # Version 0.4
 
-Goal: Professional rendering.
+## Goal
 
-Render Engine 🔄
+Professional rendering and Explainable AI.
 
-Overlay Engine ✅
+### Rendering
 
-Subtitle Renderer ✅
+🔄 Render Engine
 
-Motion Renderer ✅
+✅ Overlay Renderer
 
-Zoom Renderer ✅
+✅ Subtitle Renderer
 
-FFmpeg Builder ✅
+✅ Motion Renderer
 
-Export Profiles
+✅ Zoom Renderer
 
-TikTok Export
+✅ FFmpeg Builder
 
-Reels Export
+### Export
 
-YouTube Export
+* Export Profiles
+* TikTok Export
+* Instagram Reels Export
+* YouTube Shorts Export
+* Long-form Export
+
+### Explainable AI
+
+✅ Audit Layer
+
+✅ Explain Engine
+
+✅ AI Decision Logging
+
+✅ JSON Export
+
+✅ Markdown Export
+
+### Localhost Foundation
+
+🔄 Explain Mode UI
+
+🔄 Timeline Inspector
+
+🔄 Asset Library
+
+🔄 Motion Library
+
+🔄 AI Debugger
+
+---
+
+# Version 0.5
+
+## Goal
+
+Asset Intelligence Foundation.
+
+### Computer Vision
+
+🔄 Asset Intelligence
+
+🔄 Scene Classification
+
+🔄 Product Detection
+
+🔄 Face Detection
+
+🔄 Object Detection
+
+🔄 B-roll Classification
+
+🔄 Asset Metadata
+
+🔄 Asset Ranking
+
+🔄 Intelligent Asset Selection
 
 ---
 
 # Future
 
+## AI Vision
+
+* Shot Understanding
+* Composition Analysis
+* Visual Storytelling
+* Continuity Detection
+* Camera Analysis
+
+---
+
+## Research Center
+
+Continuous AI research for:
+
+* successful advertisements
+* editing trends
+* storytelling
+* motion graphics
+* marketing
+* copywriting
+
+Knowledge gathered by the Research Center will continuously improve every AI Employee.
+
+---
+
+## Outreach Engine
+
+* Business Discovery
+* Contact Verification
+* Personalized Outreach
+* WhatsApp Generation
+* Gmail Generation
+* Marketing Intelligence
+
+---
+
+## Localhost
+
+The primary interface for the CopyStack ecosystem.
+
+Planned modules:
+
+* Explain Mode
+* Timeline Inspector
+* Asset Library
+* Motion Library
+* Research Dashboard
+* AI Debugger
+* Showcase
+* Performance Analytics
+
+---
+
+## Rendering
+
+Future rendering backends:
+
+* GPU Rendering
+* OpenGL
+* Vulkan
+* DirectX
+* Hardware Acceleration
+
+---
+
+## Platform
+
+Long-term ecosystem:
+
+* AI Employee Operating System
+* Shared AI Memory
 * AI Router
-* Multi Model Support
-* Creative Memory
+* Multi-Model Support
 * Prompt Library
 * Analytics Dashboard
-* Local Web Interface
+* Script Helper
+* AI Employee Marketplace
+
+---
+
+# Long-Term Vision
+
+CopyStack will evolve into a complete AI Employee Operating System where specialized AI Employees collaborate to perform complex creative and business tasks.
+
+The Video Engine serves as the reference implementation for this architecture, validating technologies that will later power Asset Intelligence, AI Vision, Research Center, Outreach Engine, Localhost, and future CopyStack products.
+
+Every roadmap milestone builds reusable technology that moves the ecosystem closer to a fully autonomous AI-powered creative platform.
