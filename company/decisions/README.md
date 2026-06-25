@@ -1,43 +1,121 @@
-# Decisions
+# Architecture Decisions
 
-This directory contains every major decision made during the development of CopyStack.
+## Overview
 
-Each decision is permanently documented to preserve the reasoning behind important business, product and technical choices.
+The Architecture Decision Records (ADRs) document the permanent technical and strategic decisions that define the CopyStack ecosystem.
 
-These documents help ensure consistency, transparency and long-term thinking across the entire CopyStack ecosystem.
+Each decision captures:
 
----
+* the problem that existed
+* the chosen solution
+* the reasoning behind the decision
+* long-term consequences
+* possible alternatives
 
-## Decision Format
+Architecture Decisions are intended to preserve institutional knowledge and explain why the system was designed in its current form.
 
-Every decision should include:
-
-- Title
-- Status
-- Date
-- Context
-- Decision
-- Why
-- Consequences
-- Reversible (Yes / No)
-- Related Decisions
+Once accepted, an Architecture Decision should only change if a new decision explicitly supersedes it.
 
 ---
 
-## Naming Convention
+# Business Vision
 
-Decision files follow the format:
+## Decision 0001
 
-0001-title.md
+### AI Company
 
-0002-title.md
-
-0003-title.md
-
-...
+Defines CopyStack as a software-first AI company rather than a traditional service business.
 
 ---
 
-## Rule
+# Core Architecture
 
-If an important decision is not documented here, it is not considered an official CopyStack decision.
+## Decision 0002
+
+### AI Employee Operating System
+
+Defines the architectural foundation used by every CopyStack product.
+
+Introduces specialized AI Employees as the primary building blocks of the ecosystem.
+
+---
+
+# Product Strategy
+
+## Decision 0003
+
+### Video Engine First
+
+Establishes the Video Engine as the first flagship product used to validate the AI Employee Operating System.
+
+---
+
+# Rendering Architecture
+
+## Decision 0004
+
+### Asset-Based Motion Graphics
+
+Defines reusable visual assets as the standard method for cinematic overlays and motion graphics.
+
+---
+
+## Decision 0005
+
+### Motion Plugin System
+
+Introduces a plugin-based architecture for cinematic motion rendering.
+
+Motion behaviors become reusable, modular, and renderer-independent.
+
+---
+
+## Decision 0006
+
+### Motion Intelligence Foundation
+
+Introduces AI-driven motion selection through Motion Context, Motion Recipes, Motion Decision Engine, and confidence-based reasoning.
+
+Motion becomes an intelligent planning system rather than a renderer feature.
+
+---
+
+# Explainable AI
+
+## Decision 0007
+
+### Explainable AI Foundation
+
+Makes explainability a permanent architectural principle.
+
+Introduces the Audit Layer and Explain Engine so every important AI decision can be:
+
+* recorded
+* inspected
+* exported
+* explained
+
+---
+
+# Future Decisions
+
+Future Architecture Decisions may include:
+
+* Asset Intelligence Foundation
+* AI Vision Foundation
+* Research Center Architecture
+* Localhost Architecture
+* Outreach Engine Architecture
+* Multi-Backend Rendering
+* AI Memory Architecture
+* AI Employee Marketplace
+
+---
+
+# Design Philosophy
+
+Architecture Decisions are permanent documents.
+
+Every new major architectural change should be introduced through a new ADR rather than modifying existing decisions.
+
+This preserves the historical evolution of CopyStack while providing a reliable source of architectural knowledge for future contributors.
