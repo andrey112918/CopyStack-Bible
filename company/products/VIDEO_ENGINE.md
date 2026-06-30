@@ -366,6 +366,55 @@ The AI pipeline will remain completely independent from rendering technology.
 
 ---
 
+# Research & Creator DNA
+
+## Goal
+
+The Video Engine should continuously improve by studying high-quality editing references.
+
+Instead of copying videos, CopyStack extracts reusable editing principles.
+
+---
+
+## Creator DNA Engine
+
+Purpose:
+
+Understand how successful creators make editing decisions.
+
+Main datasets:
+
+- Business Creators
+- Commercial Advertisements
+- Motion Design
+- Typography
+- Editing Showreels
+
+Learning output:
+
+- Camera Recipes
+- Motion Recipes
+- Subtitle Recipes
+- Effect Recipes
+- SFX Recipes
+- Psychology Rules
+
+---
+
+## Gold Dataset V1
+
+Approximately 250 reference videos collected.
+
+Categories:
+
+- Business Creators
+- Commercials
+- Motion Design
+- Typography
+- Editing Reels
+
+This dataset becomes the primary learning source for future AI editing improvements.
+
 # Long-Term Vision
 
 The CopyStack Video Engine is intended to become a fully autonomous cinematic editing system capable of understanding content in the same way an experienced human editor would.
