@@ -415,6 +415,27 @@ Categories:
 
 This dataset becomes the primary learning source for future AI editing improvements.
 
+## Recent Progress
+
+### AI Director
+
+The AI Director now includes a stabilized Cinematic Intent classification stage together with an improved Recipe Selection layer.
+
+Rather than relying solely on direct intent-to-recipe mapping, the system now supports context-aware recipe selection while maintaining compatibility with the existing director pipeline.
+
+### Current Status
+
+The internal decision quality has significantly improved.
+
+The next development milestone focuses on translating those decisions into visibly different editing behavior so that cinematic intents become immediately recognizable in the generated videos.
+
+### Current Bottleneck
+
+The current Recipe Library still produces editing behaviors that are too visually similar.
+
+Recipe Library V2 will focus on creating clearly differentiated cinematic styles for Hook, Problem, Solution, Proof, Reveal and CTA segments.
+
+
 # Long-Term Vision
 
 The CopyStack Video Engine is intended to become a fully autonomous cinematic editing system capable of understanding content in the same way an experienced human editor would.
