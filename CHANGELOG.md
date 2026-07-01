@@ -1,96 +1,240 @@
-# Changelog
+# CopyStack Changelog
+
+All notable changes to the CopyStack ecosystem will be documented in this file.
+
+The format is inspired by Keep a Changelog and follows semantic project evolution rather than individual commits.
 
 ---
 
-## 2026-06-23
+# 2026-07-01
+
+## Added
+
+### AI Director
+
+* Stabilized Cinematic Intent Classification V1.
+* Expanded rule-based intent detection.
+* Improved Romanian keyword support.
+* Improved confidence and importance scoring.
+* Added support for additional cinematic intent types.
+
+### Recipe Selection
+
+* Improved RecipeSelector decision logic.
+* Added support for recipe variants.
+* Introduced context-aware recipe selection.
+* Improved compatibility with the AI Director pipeline.
+
+### Video Engine
+
+* Completed validation of the updated AI Director pipeline.
+* Executed full regression testing.
+* Restored full compatibility with all existing systems.
+
+## Changed
+
+* Improved cinematic decision quality.
+* Improved recipe selection accuracy.
+* Improved AI Director stability.
+* Improved intent classification reliability.
+
+## Fixed
+
+* Fixed multiple intent classification edge cases.
+* Fixed RecipeSelector compatibility regressions.
+* Restored full automated test suite.
+
+## Validation
+
+* 374 automated tests passing.
+* Generated and evaluated a new rendered video.
+* Identified Recipe Library as the current visual bottleneck.
+
+## Next Milestone
+
+Recipe Library V2
+
+Goal:
+Create visually distinguishable cinematic behaviors for Hook, Problem, Solution, Proof, Reveal and CTA segments.
+
+---
+
+# 2026-06-28
+
+## Added
+
+### AI Director
+
+* Introduced Director Decision Package.
+* Integrated Motion Director with AI Director.
+* Added Motion Consolidation V1.
+* Stabilized Impact Event processing.
+* Prepared the foundation for Creator DNA integration.
+
+### Planning
+
+* Initial Creator DNA architecture.
+* Gold Dataset V1 planning.
+* Large reference dataset collection for future training.
+
+## Changed
+
+* Improved AI Director orchestration.
+* Improved communication between cinematic modules.
+
+---
+
+# 2026-06-25
+
+## Added
+
+### Story Intelligence
+
+* Story Music Alignment planning.
+* Explainable AI planning.
+* Director reasoning improvements.
+
+### Future Planning
+
+* Creator DNA Engine research.
+* Editing Style Classifier planning.
+* Localhost Day 1 planning.
+
+---
+
+# 2026-06-23
+
+## Added
+
+### Motion System
+
+* Motion Plugin System.
+* Motion Registry.
+* Motion Filter Graph Builder.
+* Motion Plugins architecture.
+
+### Rendering
+
+* Motion rendering improvements.
+* Overlay improvements.
+* Plugin-based motion execution.
+
+## Changed
+
+* Motion execution became plugin-driven.
+
+---
+
+# 2026-06-21
+
+## Added
+
+### Motion Decision Engine
+
+* Motion Context.
+* Motion Decision Engine.
+* Motion Recipes.
+* Motion Decision tests.
+
+### Story Engine
+
+* Story Progress Tracker.
+* Story-aware motion planning.
+
+---
+
+# 2026-06-20
+
+## Added
+
+### AI Directors
+
+* Motion Director.
+* Effect Director.
+* Transition Director.
+
+### Timeline
+
+* Timeline Planner improvements.
+* Timeline metadata.
+* Director integration.
+
+---
+
+# 2026-06-19
+
+## Added
+
+### AI Director Foundation
+
+* Cinematic Goals.
+* Cinematic Recipes.
+* Recipe Library.
+* Recipe Selector.
+* AI Director Pipeline.
+* Director Memory.
+* Director Score.
+
+### Intelligence
+
+* Cinematic Memory.
+* Story State.
+* Director Brain.
+* Director Brain Adapter.
+
+---
+
+# 2026-06-18
+
+## Added
+
+### Timeline Planning
+
+* Timeline Planner integration.
+* Timeline Models.
+* Timeline Translators.
+
+### Rendering
+
+* Subtitle rendering improvements.
+* Overlay renderer improvements.
+* RenderPlan Builder improvements.
+
+---
+
+# 2026-06-17
+
+## Added
+
+### Subtitle System
+
+* Improved subtitle synchronization.
+* Word timing.
+* Better subtitle segmentation.
+* Subtitle animation improvements.
+
+### Rendering
+
+* Subtitle fade animations.
+* Keyword highlighting.
+
+---
+
+# 2026-06-16
+
+## Initial Public Foundation
 
 ### Added
 
-#### Motion Intelligence
+* Project foundation.
+* Initial rendering pipeline.
+* Speech analysis.
+* Content analysis.
+* Timeline Builder.
+* Render Plan.
+* Basic subtitle generation.
+* Initial AI editing pipeline.
 
-- Motion Decision Engine
-- Motion Context model
-- Motion Decision model
-- Motion Recipe system
-- Motion Recipe selection pipeline
-- Motion confidence scoring
-- Motion reasoning metadata
+### Project Vision
 
-#### Motion Plugins
-
-- Plugin registry
-- Plugin execution pipeline
-- Motion filter graph builder
-- Extensible plugin interface
-- Motion demo renderer
-
-#### Story Intelligence
-
-- Story Engine improvements
-- Story Progress Tracker
-- Cinematic Memory integration
-- Story-aware motion decisions
-
-#### Rendering
-
-- Motion Renderer
-- Motion instruction execution
-- Motion plugin integration
-- Timeline → Renderer motion pipeline
-
-#### Timeline
-
-- Rich metadata generation
-- Recipe identifiers
-- Confidence tracking
-- Decision explanations
-- Warning propagation
-
-#### Testing
-
-- Motion Plugin tests
-- Motion Decision Engine tests
-- Story Progress Tracker tests
-- Timeline metadata tests
-- Filter graph tests
-- Renderer integration tests
-
----
-
-### Improved
-
-- Timeline Planner
-- Render pipeline
-- Motion architecture
-- Story intelligence
-- AI modularity
-- Pipeline extensibility
-- Explainability support
-
----
-
-### Refactored
-
-- Removed hardcoded motion logic
-- Split responsibilities between planning and rendering
-- Introduced recipe-driven execution
-- Simplified renderer responsibilities
-- Improved pipeline separation
-
----
-
-### Fixed
-
-- Motion execution consistency
-- Timeline synchronization
-- Plugin execution issues
-- Renderer integration edge cases
-- Motion decision reliability
-
----
-
-### Project Status
-
-Motion Intelligence Foundation completed.
-
-The Video Engine now contains a fully modular architecture capable of supporting future Explain Mode, Localhost integration and advanced AI decision systems.
+CopyStack officially began its transformation from a simple AI video editor into an AI Employee Operating System capable of automating creative, marketing and business workflows.
