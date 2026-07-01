@@ -296,6 +296,33 @@ Long-term ecosystem:
 * Script Helper
 * AI Employee Marketplace
 
+## Video Engine Progress Update
+
+### Completed
+
+* AI Director Foundation
+* Cinematic Intent Classification V1
+* Recipe Selection V1 Improvements
+* AI Director Pipeline Stabilization
+* Full compatibility with existing rendering pipeline
+* 374 automated tests passing
+
+### Current Milestone
+
+Recipe Library V2
+
+Goal:
+
+Introduce visually distinct cinematic recipes so that different editing intents create clearly recognizable editing styles in the final rendered video.
+
+### Upcoming Milestones
+
+* Recipe Library V2
+* Video Quality Tuning
+* Commercial Video Engine V1 Freeze
+* Outreach Engine Development
+
+
 ---
 
 # Long-Term Vision
