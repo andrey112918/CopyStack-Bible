@@ -6,6 +6,101 @@ The format is inspired by Keep a Changelog and follows semantic project evolutio
 
 ---
 
+# Changelog
+
+## 2026-07-02
+
+### Added
+
+- Integrated Codex CLI into the CopyStack development workflow.
+- Added persistent AI documentation:
+  - AGENTS.md
+  - COPYSTACK_CONTEXT.md
+  - COPYSTACK_GUIDE.md
+  - COPYSTACK_ARCHITECTURE.md
+- Introduced a structured AI-assisted development workflow:
+  - Planning
+  - Approval
+  - Implementation
+  - Testing
+  - Localhost Verification
+  - Technical Review
+
+---
+
+### Changed
+
+#### Localhost Architecture
+
+- Extracted **Settings** into its own page module.
+- Extracted **About** into its own page module.
+- Simplified `server.py` by removing page-specific rendering logic.
+
+#### Dashboard V2
+
+- Rebuilt the CopyStack OS dashboard.
+- Added a premium SaaS-style landing page.
+- Introduced:
+  - Hero Section
+  - Active AI Departments
+  - AI Statistics
+  - Engine Health
+  - Quick Actions
+  - Recent Activity
+  - Recent Projects
+  - System Status
+
+#### Navigation
+
+- Improved tab navigation.
+- Each engine now behaves like an independent product page instead of one long scrolling interface.
+- Reduced dashboard density and improved visual hierarchy.
+
+---
+
+### Fixed
+
+- Resolved localhost UI structure issues caused by rendering all engine sections as one continuous page.
+- Fixed localhost page organization by separating Dashboard, Video Engine and Outreach Engine experiences.
+- Corrected CSS issues discovered during Dashboard V2 implementation.
+
+---
+
+### Verified
+
+- Refactored localhost without breaking existing functionality.
+- **374 pytest tests passed.**
+- Localhost successfully started.
+- HTTP 200 verified.
+- Localhost shutdown verified successfully.
+
+---
+
+### Current Status
+
+**CopyStack Localhost V2**
+
+Completed:
+
+- Dashboard V2
+- Premium SaaS UI Foundation
+- Improved Navigation
+- Modular Settings Page
+- Modular About Page
+- Codex CLI Development Workflow
+
+In Progress:
+
+- Video Engine Dashboard
+- Outreach Engine Dashboard
+
+Next:
+
+- Business Finder
+- Email Preview
+- WhatsApp Preview
+- Analysis History
+
 # 2026-07-01
 
 ## Added
