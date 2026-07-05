@@ -1,225 +1,68 @@
-# CopyStack Video Engine
+# Video Engine
 
-# Overview
+## Status
 
-The CopyStack Video Engine is an AI-powered cinematic video editing system designed to automate the complete editing process through specialized AI Employees.
+**Production Foundation Completed**
 
-Unlike traditional video editors that require manual editing decisions, the Video Engine analyzes speech, story progression, music, visual assets, and editing context before generating a complete editing plan.
+The CopyStack Video Engine is the first major product inside the CopyStack AI Employee Operating System.
 
-Every creative decision is produced by AI before rendering begins, allowing the renderer to focus exclusively on execution.
+Its mission is to transform raw content into high-quality short-form videos using deterministic intelligence before generative AI.
 
-The Video Engine is the first product built within the CopyStack ecosystem and serves as the reference implementation of the AI Employee Operating System.
+The Video Engine is not designed to replace editors.
+
+It is designed to replicate the editorial decision-making process.
 
 ---
 
 # Vision
 
-The long-term vision of the Video Engine is to become an autonomous cinematic editor capable of producing professional-quality short-form videos without manual editing.
+The Video Engine should understand why professional editors make specific decisions.
 
-Rather than replacing existing editing software, the Video Engine aims to replace repetitive editing workflows by allowing AI Employees to perform creative planning automatically.
+Instead of randomly applying effects, transitions or subtitles, the engine learns:
 
-Every new capability should improve the system's ability to understand content rather than simply generating visual effects.
+- why an edit happens;
+- when it happens;
+- what problem it solves;
+- how it improves retention.
 
----
-
-# Objectives
-
-The Video Engine is designed around several primary objectives:
-
-- understand spoken content
-- understand story progression
-- synchronize edits with music
-- generate cinematic motion
-- optimize viewer retention
-- automate visual storytelling
-- explain every AI decision
-- produce deterministic rendering instructions
-
-The ultimate objective is to enable fully autonomous video production while preserving professional editing quality.
+Every future editing decision should be explainable.
 
 ---
 
-# Core Capabilities
+# Product Purpose
 
-## Speech Intelligence
+The Video Engine automatically transforms long-form or raw footage into engaging short-form content suitable for platforms such as:
 
-Speech Intelligence analyzes spoken content before editing begins.
+- TikTok
+- Instagram Reels
+- YouTube Shorts
+- Facebook Reels
+- LinkedIn Video (future)
 
-Current capabilities include:
-
-- transcript analysis
-- keyword detection
-- sentence importance
-- speech timing
-- editing moment detection
-
-Future capabilities include:
-
-- emotion detection
-- persuasion analysis
-- audience intent recognition
-- speaking style classification
+The engine combines deterministic analysis, structured knowledge and future AI reasoning to produce production-ready videos.
 
 ---
 
-## Story Intelligence
+# Core Principles
 
-Story Intelligence provides narrative understanding throughout the video.
+The Video Engine follows several design principles.
 
-Current components:
-
-- Story Engine
-- Story Progress Tracker
-- Story State
-- Cinematic Memory
-
-Responsibilities include:
-
-- identifying narrative stages
-- tracking story progression
-- influencing pacing
-- guiding motion decisions
-- improving emotional continuity
+- Story before Effects.
+- Timing before Animation.
+- Context before Motion.
+- Evidence before Decisions.
+- Deterministic before Generative.
+- Modular architecture.
+- Explainable editing decisions.
+- Reusable intelligence across all editing systems.
 
 ---
 
-## Motion Intelligence
+# Architecture
 
-Motion Intelligence determines how the video should move visually.
+The Video Engine is composed of several intelligence layers.
 
-Core components include:
-
-- Motion Context
-- Motion Decision Engine
-- Motion Recipes
-- Motion Plugin System
-
-Motion decisions are influenced by:
-
-- story progression
-- speech importance
-- music
-- editing role
-- audience retention
-- visual energy
-
-Every decision includes structured metadata that can later be explained through Explain Mode.
-
----
-
-## Music Intelligence
-
-Music Intelligence analyzes the soundtrack before rendering.
-
-Current capabilities include:
-
-- beat detection
-- beat switches
-- build-ups
-- drops
-- pacing changes
-- synchronization opportunities
-
-Future versions will support complete audio understanding rather than predefined music profiles.
-
----
-
-## Timeline Intelligence
-
-Timeline Intelligence coordinates every editing decision before rendering.
-
-Responsibilities include:
-
-- clip sequencing
-- subtitle planning
-- camera planning
-- motion planning
-- effect planning
-- transition planning
-- timeline metadata generation
-
-TimelinePlan becomes the central editing model used throughout the entire pipeline.
-
----
-
-## Rendering System
-
-The Rendering System executes structured instructions generated by AI Employees.
-
-Current rendering capabilities include:
-
-- subtitles
-- overlays
-- motion rendering
-- zoom rendering
-- FFmpeg export
-
-Rendering components never perform creative reasoning.
-
----
-
-## Audit Layer
-
-The Audit Layer records every significant AI decision generated during video production.
-
-Each recorded decision includes:
-
-- component
-- action
-- decision
-- confidence
-- reasoning
-- metadata
-- warnings
-
-The Audit Layer provides complete traceability throughout the editing pipeline.
-
----
-
-## Explain Mode
-
-Explain Mode transforms technical audit data into human-readable explanations.
-
-Supported outputs include:
-
-- Python Objects
-- Dictionary
-- JSON
-- Markdown
-
-Future Localhost versions will visualize Explain Mode through an interactive debugging interface.
-
----
-
-# AI Employees
-
-The Video Engine is composed of specialized AI Employees.
-
-Current AI Employees include:
-
-- Creative Director
-- Strategy Director
-- Story Engine
-- Scene Planner
-- Music Analyzer
-- Timeline Planner
-- Motion Decision Engine
-- Effect Director
-- Transition Director
-- Director Brain
-- Director Memory
-- Director Score
-
-Each AI Employee owns a single responsibility and communicates through structured models.
-
----
-
-# Current Workflow
-
-The current production pipeline follows this architecture:
-
-```
-Speech / Video Input
+Video Input
 
 ↓
 
@@ -227,219 +70,310 @@ Speech Analysis
 
 ↓
 
+Content Analysis
+
+↓
+
 Story Intelligence
 
 ↓
 
-AI Employees
+AI Directors
 
 ↓
 
-Timeline Planner
+Timeline Planning
 
 ↓
 
-Motion Intelligence
+Motion Planning
 
 ↓
 
-Director Brain
+Subtitle Planning
 
 ↓
 
-Audit Layer
+Effect Planning
 
 ↓
 
-Explain Engine
+Transition Planning
 
 ↓
 
-RenderPlan
+Render Pipeline
 
 ↓
 
-Renderer
+Final Video
 
-↓
-
-FFmpeg Export
-```
-
-This workflow ensures that every creative decision is completed before rendering begins.
+Every stage produces structured metadata that becomes reusable by the next layer.
 
 ---
 
-# Current Features
+# Major Components
 
-Implemented features include:
+## Speech Intelligence
 
-- AI Employee architecture
-- Speech Intelligence
+Responsible for understanding spoken content.
+
+Capabilities:
+
+- Speech transcription
+- Word timing
+- Sentence segmentation
+- Keyword detection
+- Pause detection
+- Speech pacing
+- Strong sentence detection
+
+---
+
+## Content Intelligence
+
+Analyzes the meaning of the video.
+
+Capabilities:
+
+- Scene understanding
+- Topic extraction
+- Context detection
+- Information density
+- Emotional intensity
+- Narrative role
+
+---
+
+## Story Engine
+
+Responsible for narrative understanding.
+
+Capabilities:
+
+- Hook detection
+- Build-up
+- Value delivery
+- Proof
+- Payoff
+- CTA detection
+- Story progression
+
+---
+
+## AI Directors
+
+The Video Engine uses specialized AI Directors instead of one monolithic system.
+
+Current Directors include:
+
+- Creative Director
+- Strategy Director
+- Motion Director
+- Transition Director
+- Effect Director
+- Timeline Director
+- Music Director
+- Story Director
+
+Each Director focuses on one editing domain.
+
+---
+
+## Timeline Intelligence
+
+Builds a structured editing timeline.
+
+Responsible for:
+
+- subtitles
+- motion
+- transitions
+- effects
+- camera movement
+- overlays
+- B-roll
+
+---
+
+## Motion System
+
+Provides reusable motion recipes.
+
+Examples:
+
+- Zoom Punch
+- Smooth Push
+- Camera Shake
+- Crash Zoom
+
+The Motion System separates motion planning from rendering.
+
+---
+
+## Subtitle Engine
+
+Responsible for subtitle generation and styling.
+
+Capabilities:
+
+- Word-level timing
+- Animated subtitles
+- Keyword emphasis
+- Subtitle segmentation
+- Future creator presets
+
+---
+
+## Render Pipeline
+
+Transforms structured plans into a final video.
+
+Responsible for:
+
+- subtitle rendering
+- motion rendering
+- overlays
+- transitions
+- export pipeline
+- FFmpeg orchestration
+
+---
+
+# Knowledge Integration
+
+The Video Engine is designed to consume structured knowledge rather than isolated prompts.
+
+Current integrations:
+
+- Research Center
+- Gold Dataset
+
+Future integrations:
+
+- Creator DNA
+- Brand DNA
+- Commercial Library
+- Pattern Library
+
+The editing engine learns from reusable editorial intelligence.
+
+---
+
+# Localhost Integration
+
+The Video Engine is available inside the CopyStack Localhost application.
+
+Current workspace supports:
+
+- project management
+- rendering
+- timeline visualization
+- engine status
+- future workflow integration
+
+The Localhost interface will become the primary workspace for future editing operations.
+
+---
+
+# Data Flow
+
+Video
+
+↓
+
+Speech Analysis
+
+↓
+
+Content Analysis
+
+↓
+
+Story Engine
+
+↓
+
+AI Directors
+
+↓
+
+Timeline Planning
+
+↓
+
+Motion Planning
+
+↓
+
+Subtitle Planning
+
+↓
+
+Effect Planning
+
+↓
+
+Render Pipeline
+
+↓
+
+Output Video
+
+---
+
+# Current Capabilities
+
+The current implementation includes:
+
+- AI Director Architecture
+- Timeline Planning
+- Motion Planning
+- Subtitle Planning
+- Effect Planning
+- Transition Planning
 - Story Intelligence
-- Motion Intelligence
+- Speech Intelligence
 - Motion Plugin System
-- Timeline Planner
-- Scene Planner
-- Music Analyzer
-- Director Brain
-- Director Memory
-- Director Score
-- Audit Layer
-- Explain Engine
-- RenderPlanBuilder
-- Timeline AI rendering
-- Motion Renderer
-- Overlay Renderer
-- Subtitle Renderer
-
-All major systems are supported by automated testing.
+- Render Pipeline
+- Structured Metadata
+- Deterministic Decision Making
 
 ---
 
-# Planned Features
+# Current Sprint Status
 
-The next development milestones include:
+The Video Engine foundation is complete.
 
-## Asset Intelligence
+Current development focus has shifted toward the Localhost platform and Outreach Engine.
 
-- visual asset understanding
-- scene classification
-- B-roll categorization
-- product detection
-- face detection
-- asset scoring
+The Video Engine will continue evolving after the Outreach Engine reaches production maturity.
 
 ---
 
-## AI Vision
+# Future Development
 
-- shot analysis
-- framing analysis
-- composition analysis
-- continuity detection
-- visual storytelling
+Planned improvements include:
 
----
-
-## Research Center
-
-A dedicated AI research system responsible for continuously studying:
-
-- successful advertisements
-- editing techniques
-- storytelling
-- marketing
-- motion graphics
-
-The collected knowledge will improve every AI Employee over time.
-
----
-
-## Localhost
-
-The Localhost application will provide the primary interface for interacting with the Video Engine.
-
-Planned modules include:
-
+- Creator DNA
+- Brand DNA
+- Commercial DNA
+- Audio Intelligence V2
+- Visual Strategy Planner
+- Cinematic Arc Planner
+- Gold Dataset Integration
+- Pattern Learning
+- AI Editing Assistant
 - Explain Mode
-- Timeline Inspector
-- Asset Library
-- Motion Library
-- AI Debugger
-- Research Dashboard
-- Showcase
-- Performance Metrics
+- Asset Intelligence
+- Continuous Learning
 
 ---
-
-## Multi-Backend Rendering
-
-Future rendering backends may include:
-
-- GPU Rendering
-- OpenGL
-- Vulkan
-- DirectX
-
-The AI pipeline will remain completely independent from rendering technology.
-
----
-
-# Research & Creator DNA
-
-## Goal
-
-The Video Engine should continuously improve by studying high-quality editing references.
-
-Instead of copying videos, CopyStack extracts reusable editing principles.
-
----
-
-## Creator DNA Engine
-
-Purpose:
-
-Understand how successful creators make editing decisions.
-
-Main datasets:
-
-- Business Creators
-- Commercial Advertisements
-- Motion Design
-- Typography
-- Editing Showreels
-
-Learning output:
-
-- Camera Recipes
-- Motion Recipes
-- Subtitle Recipes
-- Effect Recipes
-- SFX Recipes
-- Psychology Rules
-
----
-
-## Gold Dataset V1
-
-Approximately 250 reference videos collected.
-
-Categories:
-
-- Business Creators
-- Commercials
-- Motion Design
-- Typography
-- Editing Reels
-
-This dataset becomes the primary learning source for future AI editing improvements.
-
-## Recent Progress
-
-### AI Director
-
-The AI Director now includes a stabilized Cinematic Intent classification stage together with an improved Recipe Selection layer.
-
-Rather than relying solely on direct intent-to-recipe mapping, the system now supports context-aware recipe selection while maintaining compatibility with the existing director pipeline.
-
-### Current Status
-
-The internal decision quality has significantly improved.
-
-The next development milestone focuses on translating those decisions into visibly different editing behavior so that cinematic intents become immediately recognizable in the generated videos.
-
-### Current Bottleneck
-
-The current Recipe Library still produces editing behaviors that are too visually similar.
-
-Recipe Library V2 will focus on creating clearly differentiated cinematic styles for Hook, Problem, Solution, Proof, Reveal and CTA segments.
-
 
 # Long-Term Vision
 
-The CopyStack Video Engine is intended to become a fully autonomous cinematic editing system capable of understanding content in the same way an experienced human editor would.
+The Video Engine is intended to become an AI video editor capable of reasoning about editorial decisions instead of blindly applying effects.
 
-Every AI Employee contributes specialized knowledge while remaining modular, explainable, and independently testable.
+Future versions should continuously improve by learning from structured datasets, successful edits and reusable editing patterns.
 
-As the CopyStack ecosystem expands, the Video Engine will continue serving as the reference implementation for the AI Employee Operating System, demonstrating how specialized AI systems can collaborate to produce professional-quality creative work.
+Ultimately, the Video Engine will become the content creation employee inside the CopyStack AI Employee Operating System.
