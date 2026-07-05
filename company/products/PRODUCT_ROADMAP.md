@@ -1,227 +1,150 @@
-# CopyStack Product Roadmap
+CopyStack Product Roadmap
+Vision
 
-Last Updated: 2026-06-30
+CopyStack is evolving into an AI Employee Operating System.
 
----
+Rather than building isolated AI tools, the platform is being developed as a collection of specialized AI employees that collaborate through shared knowledge and reusable intelligence.
 
-# Vision
+Every completed phase becomes the foundation for the next.
 
-CopyStack is being built as an AI Employee Operating System.
+Phase 1 — Video Intelligence Foundation ✅
+Goal
 
-The first product is the Video Engine, which serves as the intelligence foundation for future AI employees.
+Build a production-ready AI video editing engine capable of generating high-quality short-form content.
 
-The objective is not to automate editing.
+Major Deliverables
+AI Directors
+Timeline Intelligence
+Motion System
+Subtitle Engine
+Story Engine
+Audio Intelligence
+Transition Engine
+Effect Engine
+Director Memory
+Render Pipeline
 
-The objective is to understand how great editors make decisions and reproduce those principles through AI.
+Status: Production Ready Foundation
 
----
+Phase 2 — Knowledge Foundation ✅
+Goal
 
-# Current Development Phase
+Create the knowledge layer that teaches every future AI employee.
 
-## Product
-
-CopyStack Video Engine
-
-## Status
-
-Active Development
-
-## Priority
-
-Highest
-
----
-
-# Current Sprint
-
-## Completed
-
-### AI Director Foundation
-
-- Intent Classification
-- Cinematic Goals
-- Cinematic Recipes
-- Recipe Library
-- Recipe Selector
-- AI Director Pipeline
-- Director Decision Package
-
-### Motion Intelligence
-
-- Motion Director AI Integration
-- Motion Consolidation V1
-- Legacy Motion cleanup
-- Reduced duplicated motion generation
-
-### Impact Event System
-
-- Impact Event Planner
-- Stabilized cinematic impact generation
-- Reduced excessive motion
-- Cleaner camera emphasis
-
-### Research
-
-- Creator DNA Framework
-- Gold Dataset planning
-- Initial Commercial DNA planning
-
----
-
-# Current Objective
-
-Improve the generated Day 1 Video Engine output.
-
-Every implementation should produce a visible improvement in the generated video.
-
-If the improvement is not visible, the implementation should be postponed.
-
----
-
-# Next Objectives
-
-## Phase 1
-
-- Camera Director V2
-- Effects Director
-- SFX Director
-
-Goal:
-
-Create intentional cinematic shots instead of isolated effects.
-
----
-
-## Phase 2
-
-- Shot Planner
-- Camera Recipes
-- Motion Recipes
-- Effect Recipes
-- Subtitle Recipes
-
-Goal:
-
-Every editing decision should serve a cinematic purpose.
-
----
-
-## Phase 3
-
-Creator DNA Engine
-
-Responsibilities:
-
-- Analyze creators
-- Extract editing rules
-- Extract camera rules
-- Extract subtitle rules
-- Extract psychology rules
-- Generate reusable recipes
-
----
-
-## Phase 4
-
+Products
 Research Center
+Gold Dataset
+Brand DNA
+Creator DNA
+Commercial Analysis
+Pattern Library
+Purpose
 
-Modules:
+Instead of learning from prompts, future AI systems learn from structured editorial intelligence.
 
-- Creator DNA
-- Commercial DNA
-- Motion DNA
-- Story DNA
-- Psychology DNA
-- Audio DNA
+Status: Foundation Complete
 
-Goal:
+Phase 3 — Localhost Platform 🚧
+Goal
 
-Continuously improve Video Engine intelligence from high-quality reference videos.
+Transform CopyStack into a complete desktop workspace.
 
----
+Modules
+Dashboard
+Video Engine Workspace
+Outreach Engine Workspace
+Research Workspace
+Asset Library
+Settings
+Future Product Navigation
+Purpose
 
-## Phase 5
+Provide a unified interface for every CopyStack product.
 
-Creative Library
+Status: Active Development
 
-Large libraries for:
+Phase 4 — Outreach Intelligence 🚧
+Goal
 
-- Motion
-- Camera
-- Effects
-- SFX
-- Transitions
-- Typography
-- B-roll
+Build an AI sales intelligence platform.
 
----
+Modules
+Business Discovery
+Prospect Workspace
+Prospect Analysis Engine
+Website Intelligence
+Business Needs Engine
+Business Intent Engine
+Opportunity Planning
+Evidence Layer
+UI/UX Workspace
+Purpose
 
-## Phase 6
+Understand businesses before generating outreach.
 
-CopyStack Localhost
+Status: Active Development
 
-Features:
+Phase 5 — Outreach Automation
+Goal
 
-- Day 1 Showcase
-- Day 2 Showcase
-- Video Engine
-- Creator DNA Engine
-- Research Center
-- Asset Library
-- Explain Mode
+Automate personalized outreach.
 
----
+Planned Modules
+Outreach Strategy Engine
+Email Generator
+WhatsApp Generator
+CRM Integration
+Campaign Engine
+Follow-up Engine
+Analytics
+Phase 6 — Shared Intelligence
+Goal
 
-## Phase 7
+Allow every product to share knowledge.
+
+Planned Modules
+Shared Knowledge Graph
+Shared Embeddings
+Pattern Engine
+Recommendation Engine
+AI Memory
+Continuous Learning
+Phase 7 — AI Employee Operating System
+Goal
+
+Transform CopyStack into a collection of collaborating AI employees.
+
+Planned Employees
+Video Employee
+Outreach Employee
+Research Employee
+Campaign Employee
+Analytics Employee
+CRM Employee
+
+Each employee shares the same knowledge base while specializing in a different business domain.
+
+Guiding Principles
+
+Every phase follows the same philosophy.
+
+Build reusable systems.
+Keep modules independent.
+Prefer deterministic intelligence before generative AI.
+Evidence before recommendations.
+One product should strengthen every other product.
+Localhost is the unified operating system for every CopyStack module.
+Current Focus
+
+Current Sprint
 
 Outreach Engine
+Localhost Polish
+Website Intelligence V2
+Documentation
+GitHub Synchronization
+Long-Term Vision
 
-Modules:
+CopyStack is not intended to become another AI editing tool.
 
-- Business Finder
-- Contact Verification
-- Outreach Agent
-- Research Assistant
-- Gmail Writer
-- WhatsApp Writer
-
----
-
-# Long-Term Vision
-
-CopyStack becomes an AI Employee Operating System.
-
-Future AI Employees include:
-
-- Video Employee
-- Outreach Employee
-- Research Employee
-- Marketing Employee
-- Sales Employee
-- Copywriting Employee
-- Analytics Employee
-
-All employees share a common AI intelligence layer.
-
----
-
-# Development Principles
-
-Before implementing any feature ask:
-
-> Does this significantly improve the generated video?
-
-If the answer is no,
-postpone the implementation.
-
----
-
-# Success Criteria
-
-Current milestone is complete when:
-
-- AI Director controls cinematic decisions.
-- Generated videos feel intentional.
-- Camera, motion, subtitles and effects work together.
-- Creator DNA Engine can learn from reference videos.
-- Video quality is consistently improving.
+The long-term objective is to build a complete AI Employee Operating System capable of assisting businesses across content creation, research, outreach, marketing, campaign management, and future business operations.
